@@ -9,5 +9,43 @@
 <body class="d-flex flex-column min-vh-100">
     <header>
         <div class="container">
+            <!-- NAV BAR-->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <!-- LOGO -->
+                    <a href="#" class="navbar-brand">
+                        <img src="<?=base_url('/public/assets/images/iskar/')?>logo.png" alt="Iskar Logo" height="35">
+                        <span class="navbar-text h1 align-middle">ISKAR</span>
+                    </a>
+                    <!-- FIN DE LOGO -->
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <!-- Menu -->
+                    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mx-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Inicio</a>
+                            </li>
+                            <!-- 
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contáctenos</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <!-- fin menu-->
+                </div>
+            </nav>
+            <!-- FIN DE NAV BAR-->
         </div>
     </header>
