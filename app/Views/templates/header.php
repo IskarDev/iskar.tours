@@ -19,16 +19,17 @@
                         <span class="navbar-text h1 align-middle">ISKAR</span>
                     </a>
                     <!-- FIN DE LOGO -->
-                    
+                    <!--
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    
+-->
                     <!-- Menu -->
                     
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <div class="mx-auto"></div>
                         <ul class="navbar-nav">
+                            <!--
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     <i class="material-symbols-outlined align-middle">home</i>
@@ -36,12 +37,15 @@
                                 </a>
                                 
                             </li>
+-->
+                            <!-- 
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     <i class="material-symbols-outlined align-middle">mail</i>
                                     <span>contacto</span>
                                 </a>
                             </li>
+-->
                             <!-- 
                             <li class="nav-item">
                                 <a href="#" class="nav-link">Blog</a>
