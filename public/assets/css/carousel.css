@@ -1,0 +1,10 @@
+@media (min-width:768px){
+    .carousel-item{
+        height:424px;
+        overflow:hidden;
+    }
+    .carousel-item img{
+        height:auto;
+        margin-top:-50px;
+    }
+}

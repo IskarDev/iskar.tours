@@ -6,17 +6,18 @@
     <title>Iskar Web Site</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="<?=base_url('/public/assets/css/')?>carousel.css">
 </head>
 <body class="d-flex flex-column min-vh-100">
     <header>
         <div class="container">
             <!-- NAV BAR-->
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg p-0">
                 <div class="container-fluid">
                     <!-- LOGO -->
                     <a href="#" class="navbar-brand">
-                        <img src="<?=base_url('/public/assets/images/iskar/')?>logo.png" alt="Iskar Logo" height="35">
-                        <span class="navbar-text h1 align-middle">ISKAR</span>
+                        <img src="<?=base_url('/public/assets/images/iskar/')?>logo.png" alt="Iskar Logo" height="25">
+                        <span class="navbar-text align-middle p-0">ISKAR</span>
                     </a>
                     <!-- FIN DE LOGO -->
                     <!--
